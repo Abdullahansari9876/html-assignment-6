@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Bungee+Tint&family=Caudex:ital,wght@0,400;0,700;1,400;1,700&family=Creepster&family=DM+Serif+Display:ital@0;1&family=Days+One&family=Gabriela&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Prociono&family=Quando&family=Yaldevi:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Bungee+Tint&family=Caudex:ital,wght@0,400;0,700;1,400;1,700&family=Creepster&family=DM+Serif+Display:ital@0;1&family=Days+One&family=Gabriela&family=Mona+Sans:ital,wght@0,200;1,200&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Prociono&family=Quando&family=Raleway:ital,wght@0,100..900;1,100..900&family=Spicy+Rice&family=Yaldevi:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Bungee+Tint&family=Caudex:ital,wght@0,400;0,700;1,400;1,700&family=Creepster&family=DM+Serif+Display:ital@0;1&family=Days+One&family=Gabriela&family=Mona+Sans:ital,wght@0,200;1,200&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Prociono&family=Quando&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Spicy+Rice&family=Yaldevi:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    width: 100%;
+    height: 90px;
+    background-color: rgb(0, 0, 0);
+    font-family: "calibri";
+    padding-right: 50px;
+    padding-left: 80px;
+}
+
+.section-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+li:hover {
+    transition: all ease 1s;
+    transform: scale(1.2);
+    color: yellow;
+    text-shadow: 5px 5px 10px red;
+}
+
+.btn-1 {
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    color: white;
+    background-color: black;
+    font-family: "calibri";
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.btn-1:hover {
+    color: black;
+    background-color: white;
+    transition: all ease 0.5s;
+}
+
+.btn-2 {
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    color: white;
+    background-color: red;
+    font-family: "calibri";
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-2:hover {
+    color: red;
+    background-color: white;
+    transition: all ease 1.5s;
+}
+
+.imgSlider {
+    width: 100%;
+    height: 600px;
+    background-size: 100% 100%;
+    animation: changeImage 20s linear infinite;
+}
+
+@keyframes changeImage {
+    0% {
+        background-image: url("https://static.tossdown.com/images/b09ef44d-de2e-4a81-b34b-2f921866ab0b.webp");
+    }
+
+    25% {
+        background-image: url("https://static.tossdown.com/images/cb3c2d22-7957-4c35-a140-367b8464f7a3.webp");
+    }
+
+    50% {
+        background-image: url("https://static.tossdown.com/images/ac51af11-090c-49e8-9296-472de72fc5cb.webp");
+    }
+
+    75% {
+        background-image: url("https://static.tossdown.com/images/d47575d1-42d9-43f7-84b2-f11adea5f8eb.webp");
+    }
+
+    100% {
+        background-image: url("https://static.tossdown.com/images/b09ef44d-de2e-4a81-b34b-2f921866ab0b.webp");
+    }
+}
+
+.section-2 {
+    background-color: rgb(0, 0, 0);
+    padding: 70px 15px;
+}
+
+.section-2>.text {
+    color: white;
+    text-align: center;
+    font-family: "Mona Sans", sans-serif;
+}
+
+.text>h2 {
+    font-size: 35px;
+}
+
+.text>p {
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 40px;
+}
+
+#fnt {
+    font-family: "DM Serif Display", serif;
+    font-style: normal;
+    font-size: 52px;
+    color: #FFFFFF;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    width: 60%;
+    height: 250px;
+    padding: 10px 10px;
+}
+
+.img-1 {
+    background-color: white;
+    margin-bottom: 30px;
+    border-radius: 3px;
+}
+
+.btn-3 {
+    margin-top: 25px;
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-3:hover {
+    color: white;
+    background-color: black;
+    transition: all ease 0.5s;
+}
+
+.section-3 {
+    height: 175vh;
+    background-color: rgb(32, 30, 30);
+}
+
+.text-1 {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+    font-style: normal;
+    font-size: 20px;
+    font-family: "Mona Sans", sans-serif;
+}
+
+.des {
+    position: relative;
+    /* width: 348px; */
+    margin-left: 200px;
+    margin-top: 50px;
+    color: white;
+    font-family: "Mona Sans", sans-serif;
+}
+
+h4 {
+    color: red;
+}
+
+#fnt-1 {
+    font-size: 31px;
+}
+
+.des>p {
+    margin: 10px;
+    font-size: 16px;
+}
+
+.btn-4 {
+    width: 190px;
+    height: 50px;
+    margin: 24px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-4:hover {
+    color: white;
+    background-color: black;
+    transform: scale(1.2);
+    transition: all ease 1.3s;
+}
+
+.img-2 {
+    position: relative;
+    left: 600px;
+    bottom: 260px;
+    cursor: pointer;
+}
+
+.img-2:hover {
+    transform: scale(1.1);
+    transition: all ease-in 1.5s;
+}
+
+.img-3 {
+    position: relative;
+    top: -180px;
+    left: 200px;
+}
+
+.img-3:hover {
+    transform: scale(1.1);
+    transition: all ease-in 1.5s;
+}
+
+.des-1 {
+    position: relative;
+    left: 850px;
+    bottom: 482px;
+}
+
+.btn-5 {
+    width: 190px;
+    height: 50px;
+    margin-top: 45px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-5:hover {
+    color: white;
+    background-color: black;
+    transform: scale(1.2);
+    transition: all ease 1.3s;
+}
+
+.des-1 {
+    position: relative;
+    width: 348px;
+    margin-left: 30px;
+    margin: 0px;
+    color: white;
+    font-family: "Mona Sans", sans-serif;
+}
+
+.des-2 {
+    position: relative;
+    /* width: 348px; */
+    margin-left: 200px;
+    bottom: 270px;
+    color: white;
+    font-family: "Mona Sans", sans-serif;
+}
+
+.img-4 {
+    position: relative;
+    left: 600px;
+    bottom: 260px;
+    cursor: pointer;
+}
+
+.img-4:hover {
+    transform: scale(1.1);
+    transition: all ease-in 1.3s;
+}
+
+.btn-6 {
+    width: 190px;
+    height: 50px;
+    margin-top: 45px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-6:hover {
+    color: white;
+    background-color: black;
+    transform: scale(1.2);
+    transition: all ease 1.3s;
+}   
